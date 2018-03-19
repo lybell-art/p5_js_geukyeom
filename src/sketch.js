@@ -8,7 +8,7 @@ function setup()
 function draw()
 {
 	background(255);
-	rect(width/2-25,height-25,50,50);
+	rect(width/2-25,height/2-25,50,50);
 }
 
 function windowResized()
