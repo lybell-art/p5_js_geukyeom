@@ -1,10 +1,17 @@
 function setup()
 {
-	createCanvas(600,600);
+	createCanvas(windowWidth,windowHeight);
+	fill("#ff0000");
+	noStroke();
 }
 
 function draw()
 {
 	background(255);
-	ellipse(mouseX,mouseY,50,50);
+	rect(mouseX-25,mouseY-25,50,50);
+}
+
+function windowResized()
+{
+	resizeCanvas(windowWidth,windowHeight);
 }
